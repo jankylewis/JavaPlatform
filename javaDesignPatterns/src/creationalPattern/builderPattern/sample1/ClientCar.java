@@ -3,7 +3,6 @@ package creationalPattern.builderPattern.sample1;
 import creationalPattern.builderPattern.sample1.builders.CarBuilder;
 import creationalPattern.builderPattern.sample1.builders.CarManualBuilder;
 import creationalPattern.builderPattern.sample1.cars.Car;
-import creationalPattern.builderPattern.sample1.cars.CarManual;
 import creationalPattern.builderPattern.sample1.components.Engine;
 import creationalPattern.builderPattern.sample1.director.Director;
 

@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaPlatform.iml" filepath="$PROJECT_DIR$/JavaPlatform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaCodingChallenges/javaCodingChallenges.iml" filepath="$PROJECT_DIR$/javaCodingChallenges/javaCodingChallenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaDesignPatterns/javaDesignPatterns.iml" filepath="$PROJECT_DIR$/javaDesignPatterns/javaDesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaPackages/javaPackages.iml" filepath="$PROJECT_DIR$/javaPackages/javaPackages.iml" />
     </modules>
   </component>
 </project>
