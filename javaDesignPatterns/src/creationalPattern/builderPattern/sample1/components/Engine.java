@@ -15,7 +15,7 @@ public class Engine {
     public void go(double mileage) {
 
         if (_isStarted) {
-            this._mileage += mileage;
+            _mileage += mileage;
             return;
         }
 

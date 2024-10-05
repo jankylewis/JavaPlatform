@@ -11,16 +11,16 @@ public class Car {
             ECarType carType, int numberOfSeats, Engine engine, ETransmission transmission,
             TripComputer tripComputer, GPSNavigator gpsNavigator
     ) {
-        this._carType = carType;
-        this._numberOfSeats = numberOfSeats;
-        this._engine = engine;
-        this._transmission = transmission;
+        _carType = carType;
+        _numberOfSeats = numberOfSeats;
+        _engine = engine;
+        _transmission = transmission;
 
-        this._tripComputer = tripComputer;
-        if (this._tripComputer != null)
-            this._tripComputer.setCar(this);
+        _tripComputer = tripComputer;
+        if (_tripComputer != null)
+            _tripComputer.setCar(this);
 
-        this._gpsNavigator = gpsNavigator;
+        _gpsNavigator = gpsNavigator;
     }
 
     private final ECarType _carType;

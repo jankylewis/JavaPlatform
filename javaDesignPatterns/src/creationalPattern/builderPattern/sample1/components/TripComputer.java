@@ -7,7 +7,7 @@ public class TripComputer {
     private Car _car;
 
     public void setCar(Car car) {
-        this._car = car;
+        _car = car;
     }
 
     public void showFuelLevel() {

@@ -22,6 +22,8 @@ public class ClientCar {
 
         System.out.println("Car built: " + sportsCar.getCarType());
 
+        System.out.println();
+
         CarManualBuilder carManualBuilder = new CarManualBuilder();
         director.buildStagflationCar(carManualBuilder);
         carManualBuilder.setEngine(new Engine(50d, 12d));
