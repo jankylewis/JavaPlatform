@@ -15,7 +15,7 @@ public class ClientOrdering {
                         new BlackSugar(
                                 new Bubble(
                                         new MilkTea()))));
-        
+
         System.out.println("The first milk-tea's cost: " + firstMilkTea.cost());
 
         IMilkTea secondMilkTea = new EggPudding(
