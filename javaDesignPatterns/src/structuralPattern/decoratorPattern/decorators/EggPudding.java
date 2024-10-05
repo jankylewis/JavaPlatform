@@ -1,7 +1,7 @@
-package structural.decorator.decorators;
+package structuralPattern.decoratorPattern.decorators;
 
-import structural.decorator.base.IMilkTea;
-import structural.decorator.base.MilkTeaDecorator;
+import structuralPattern.decoratorPattern.base.IMilkTea;
+import structuralPattern.decoratorPattern.base.MilkTeaDecorator;
 
 public class EggPudding extends MilkTeaDecorator {
 

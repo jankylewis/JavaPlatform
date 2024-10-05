@@ -1,8 +1,8 @@
-package structural.decorator;
+package structuralPattern.decoratorPattern;
 
-import structural.decorator.base.IMilkTea;
-import structural.decorator.base.MilkTea;
-import structural.decorator.decorators.*;
+import structuralPattern.decoratorPattern.base.IMilkTea;
+import structuralPattern.decoratorPattern.base.MilkTea;
+import structuralPattern.decoratorPattern.decorators.*;
 
 public class ClientOrdering {
 
@@ -15,7 +15,7 @@ public class ClientOrdering {
                         new BlackSugar(
                                 new Bubble(
                                         new MilkTea()))));
-
+        
         System.out.println("The first milk-tea's cost: " + firstMilkTea.cost());
 
         IMilkTea secondMilkTea = new EggPudding(

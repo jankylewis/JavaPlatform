@@ -1,4 +1,4 @@
-package creational.singleton;
+package creationalPattern.singletonPattern;
 
 public class BillPughInitialization {
 

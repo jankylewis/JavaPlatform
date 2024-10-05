@@ -1,4 +1,4 @@
-package structural.decorator.base;
+package structuralPattern.decoratorPattern.base;
 
 public interface IMilkTea {
     double cost();
