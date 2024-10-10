@@ -4,6 +4,8 @@ public class ClientComputer {
 
     public static void main(String[] args) {
 
+        System.out.println();
+
         Computer gamingPC = new ComputerBuilder()
                 .setCPU("Intel i9")
                 .setRAM("64GB")
