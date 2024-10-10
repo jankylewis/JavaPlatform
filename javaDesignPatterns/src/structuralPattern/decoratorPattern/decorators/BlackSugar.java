@@ -1,9 +1,9 @@
 package structuralPattern.decoratorPattern.decorators;
 
 import structuralPattern.decoratorPattern.base.IMilkTea;
-import structuralPattern.decoratorPattern.base.MilkTeaDecorator;
+import structuralPattern.decoratorPattern.base.AMilkTeaDecorator;
 
-public class BlackSugar extends MilkTeaDecorator {
+public class BlackSugar extends AMilkTeaDecorator {
 
     public BlackSugar(IMilkTea innerMilkTea) {
         super(innerMilkTea);

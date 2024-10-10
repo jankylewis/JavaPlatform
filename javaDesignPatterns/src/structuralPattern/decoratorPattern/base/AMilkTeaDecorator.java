@@ -1,10 +1,10 @@
 package structuralPattern.decoratorPattern.base;
 
-public abstract class MilkTeaDecorator implements IMilkTea {
+public abstract class AMilkTeaDecorator implements IMilkTea {
 
     private final IMilkTea _milkTea;
 
-    protected MilkTeaDecorator(IMilkTea innerMilkTea) {
+    protected AMilkTeaDecorator(IMilkTea innerMilkTea) {
         _milkTea = innerMilkTea;
     }
 
